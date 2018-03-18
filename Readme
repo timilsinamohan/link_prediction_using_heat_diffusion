@@ -1,0 +1,19 @@
+for STRING data heat diffusion link prediction run: heat_diffusion_on_string_data.py
+for BioGRID data heat diffusion link prediction run: heat_diffusion_on_biogrid_data.py
+for katz_centrality and personalized pageRank run: page_ran_katz.py 
+
+for adamic_adar_link_prediction/resource_allocation link prediction run: adamic_adar_baseline.py and change the function name in scores = resource_allocation_index(TG,gen,tumor_gene_relation_copy)
+
+for nearest neighbor and jaccard similarity run: baseline_methods.py
+
+Data:
+physical_interaction_gene.txt ==> BioGrID data
+fusion_scores.txt ==> STRING Fusion channel data
+coexp_score.txt ===> STRING coexpression channel data
+cooccurence_scores.txt ===> STRING cooccurence channel data
+combined_scores.txt ===> STRING combined channel data
+databse_scores.txt ===> STRING database channel data
+experimental_scores.txt ===> STRING experimental channel data
+textmining_scores.txt ===> STRING textmining channel data
+neighborhood_scores.txt ===> STRING neighborhood channel data
+
